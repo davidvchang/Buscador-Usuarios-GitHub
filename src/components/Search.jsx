@@ -49,8 +49,8 @@ function Search() {
         {user && (
         <div className='flex w-full mb-16 sm:mb-20 p-4 sm:p-4 flex-col items-center justify-center h-auto bg-slate-400 sm:rounded-2xl md:rounded-2xl md:p-10'>
             {/* Contenedor de la foto */}
-            <div className='flex lg:mr-5 items-center h-24'>
-                <img src={user.image} alt="" className='w-24 h-24 lg:w-28 lg:h-24 rounded-full shadow-lg lg:min-w-28 lg:min-h-24'/>   
+            <div className='flex items-center mb-3'>
+                <img src={user.image} alt="" className='w-24 h-24 lg:w-28 lg:h-24 rounded-full shadow-lg lg:min-w-24 lg:min-h-28'/>   
             </div>
 
             {/* Contenedor Informacion */}
